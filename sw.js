@@ -1,4 +1,4 @@
-const VERSION = "0.0.2";
+const VERSION = "0.0.3";
 const CACHE_NAME = `period-tracker-${VERSION}`;
 
 const APP_STATIC_RESOURCES = [
@@ -39,7 +39,7 @@ self.addEventListener("fetch", (event) => {
   // when seeking an HTML page
   if (event.request.mode === "navigate") {
     // Return to the index.html page
-    event.respondWith(caches.match("/"));
+    event.respondWith(caches.match("/index.html"));
     return;
   }
 
