@@ -20,6 +20,13 @@
       "src": "icons/wheel.svg",
       "sizes": "512x512"
     }
-  ]
+  ],
+  "share_target": {
+    "action": "/",
+    "method": "GET",
+    "params": {
+      "url": "link"
+    }
+  }
 }
   
