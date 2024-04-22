@@ -1,13 +1,14 @@
-const VERSION = "0.0.3";
+const VERSION = "0.0.4";
 const CACHE_NAME = `period-tracker-${VERSION}`;
+var GHPATH = '/pwa-demo';
 
 const APP_STATIC_RESOURCES = [
-  "/",
-  "/index.html",
-  "/style.css",
-  "/app.js",
-  "/cycletracker.json",
-  "/icons/wheel.svg",
+  `${GHPATH}/`,
+  `${GHPATH}/index.html`,
+  `${GHPATH}/style.css`,
+  `${GHPATH}/app.js`,
+  `${GHPATH}/cycletracker.json`,
+  `${GHPATH}/icons/wheel.svg`,
 ];
 
 self.addEventListener("install", (event) => {
