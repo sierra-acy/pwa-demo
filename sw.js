@@ -1,4 +1,4 @@
-const VERSION = "0.0.4";
+const VERSION = "0.0.5";
 const CACHE_NAME = `period-tracker-${VERSION}`;
 var GHPATH = '/pwa-demo';
 
