@@ -21,13 +21,6 @@
     "src": "icons/wheel.svg",
     "sizes": "512x512"
   }
-  ],
-  "share_target": {
-    "action": "/pwa-demo/",
-    "method": "GET",
-    "params": {
-      "url": "link"
-    }
-  }
+  ]
 }
   
