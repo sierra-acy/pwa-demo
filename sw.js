@@ -1,4 +1,4 @@
-const VERSION = "0.0.6";
+const VERSION = "0.0.7";
 const CACHE_NAME = `period-tracker-${VERSION}`;
 var GHPATH = '/pwa-demo';
 
@@ -40,7 +40,7 @@ self.addEventListener("fetch", (event) => {
   // when seeking an HTML page
   if (event.request.mode === "navigate") {
     // Return to the index.html page
-    event.respondWith(caches.match("/index.html"));
+    event.respondWith(caches.match("/pwa-demo/index.html"));
     return;
   }
 
